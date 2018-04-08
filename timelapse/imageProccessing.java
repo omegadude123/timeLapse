@@ -12,7 +12,7 @@ public class imageProccessing {
 		return out;
 	}
 
-	public static boolean MatToBufferedImage(Mat matrix) {
+	private static boolean MatToBufferedImage(Mat matrix) {
 
 		int cols = matrix.cols();
 		int rows = matrix.rows();
